@@ -1,0 +1,169 @@
+header .logo a {
+  text-decoration: none;
+  color: #2c3e50;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+header .logo a:hover {
+  color: #b6b5b5;
+}
+
+header nav a {
+  font-weight: 700;
+  color: #2c3e50;
+  font-size: 13px;
+}
+
+main #hero {
+  background-image: url(../img/hero.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main #hero .hero {
+  background-color: #4e5e6dc0;
+}
+
+main #hero .hero .hero-word {
+  padding: 30vh 0;
+}
+
+main #hero .hero .hero-word .hero-title {
+  padding: 20px 40px;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  border: white solid 1px;
+  display: inline-block;
+}
+
+main #hero .hero .hero-word a {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  padding: 15px 30px;
+}
+
+main #hero .hero .hero-word .learn-btn {
+  background-color: #3498db;
+}
+
+main #hero .hero .hero-word .download-btn {
+  background-color: #1abc9c;
+}
+
+main #services {
+  background-color: #eeeeee;
+  padding: 100px 0;
+}
+
+main #services .name h4 {
+  letter-spacing: 8px;
+  color: #2c3e50;
+}
+
+main #services .service-item .icon {
+  padding: 27px;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 20px;
+  -webkit-box-shadow: 5px 10px 18px #888888;
+          box-shadow: 5px 10px 18px #888888;
+}
+
+main #services .service-item h5 {
+  font-size: 15px;
+  font-weight: bolder;
+  color: #2c3e50;
+}
+
+main #services .service-item button {
+  border: none;
+  background-color: #1abc9c;
+  padding: 8px 15px;
+}
+
+main #services .service-item button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+main #post .name h4 {
+  letter-spacing: 8px;
+  color: #2c3e50;
+}
+
+main #post .post-item .image > img {
+  width: 100%;
+  height: 15vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top center;
+     object-position: top center;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+main #post .post-item:hover img {
+  opacity: 0.5;
+}
+
+main #post .post-item p {
+  font-size: 15px;
+}
+
+main #post .post-item button {
+  border: none;
+  background-color: #1abc9c;
+  padding: 8px 15px;
+}
+
+main #post .post-item button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+main #contact .name h4 {
+  letter-spacing: 8px;
+  color: #2c3e50;
+}
+
+main #contact button {
+  border: none;
+  padding: 10px 20px;
+  background-color: #1abc9c;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+main #contact input {
+  border: 2px solid #b8b4b4;
+  border-radius: 0;
+}
+
+main #contact textarea {
+  border: 2px solid #b8b4b4;
+  border-radius: 0;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: white;
+}
+
+footer .item > h5 {
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+
+footer .end {
+  font-size: 12px;
+}
+/*# sourceMappingURL=style.css.map */
